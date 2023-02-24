@@ -14,10 +14,9 @@
 ![2023-02-24_14-25-49](https://user-images.githubusercontent.com/122459067/221173297-5b8ffbc2-257f-4577-ab48-815a6c817a6d.png)
 
 ![2023-02-24_14-53-34](https://user-images.githubusercontent.com/122459067/221173079-d43ac5ef-a319-4c2b-956a-065c867e81ce.png)
-![2023-02-24_14-34-59](https://user-images.githubusercontent.com/122459067/221173335-8da4e5a1-706b-47b7-b344-97c655ef1cfe.png)
 
 ![2023-02-24_14-33-48](https://user-images.githubusercontent.com/122459067/221172136-39090dd4-ba5b-46a7-8e0e-fa9af32b83b9.png)
-
+![2023-02-24_14-34-59](https://user-images.githubusercontent.com/122459067/221173335-8da4e5a1-706b-47b7-b344-97c655ef1cfe.png)
 ### 4. Запустить написанный скрипт на машине жертвы и исследовать arp-таблицу на машине-жертве.
 ![2023-02-24_14-23-25](https://user-images.githubusercontent.com/122459067/221172194-931bd109-ac06-42ba-9afe-1232d05f9f11.png)
 
