@@ -11,16 +11,14 @@
 ![2023-02-23_17-21-42](https://user-images.githubusercontent.com/122459067/220935524-c7d85635-35c3-4f7d-a4b8-d7070e346a2a.png)
 ![2023-02-23_17-26-26](https://user-images.githubusercontent.com/122459067/220935550-77e30121-7760-4d0f-a8a5-60fd2276cfa1.png)
 ### 3. Необходимо подредактировать код arp_spoof.py (файл есть в материалах к занятию) таким образом, чтобы весь трафик машины-жертвы шел через машинку атакующего. На машине атакующего стоит проставить ip forwarding, чтобы на второй машине не пропало соединение с интернетом.
-#!/usr/bin/env python
-
+ #!/usr/bin/env python
 import scapy.all as scapy
 import time
-
 ATTACKED_HOST_IP = '192.168.45.131'
-# ATTACKED_HOST_MAC = '00:0C:29:2F:7F:BE'
+ # ATTACKED_HOST_MAC = '00:0C:29:2F:7F:BE'
 ROUTER_IP = '192.168.45.2'
-#print(packet.show())
-#print(packet.summary())
+ #print(packet.show())
+ #print(packet.summary())
 def get_mac_addr(ip):
     ''' Get mac address by ip '''
     arp_req = scapy.ARP(pdst=ip)
